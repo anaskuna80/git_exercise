@@ -19,9 +19,14 @@ namespace git_exercise
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Worldie!");
-            
-        for (int gitLoop = 1; gitLoop <= 10; gitLoop++)            
-            Console.WriteLine("-> " + gitLoop);           
+            Console.WriteLine("Error TODO");
+
+            while (true)
+            {
+                Console.WriteLine("Bash!");
+                string input = Console.ReadLine();
+            }
         }
+        // None of this is real code, just a test...
     }
 }
