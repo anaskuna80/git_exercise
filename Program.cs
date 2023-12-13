@@ -23,7 +23,8 @@ namespace git_exercise
 
             while (true)
             {
-                Console.WriteLine("Bash!");
+              // add, list, done, new, help, quit:  
+              Console.WriteLine("Bash!");
                 string input = Console.ReadLine();
             }
         }
